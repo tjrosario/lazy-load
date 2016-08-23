@@ -1,0 +1,37 @@
+//   ========================== Placeholders ==========================
+
+%clearfix {
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
+
+%hidden {
+  left: -9999em;
+  position: absolute;
+  top: -9999em;
+}
+
+%wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+
+  @media only screen and (min-width : $breakpoint-tablet) {
+    padding-left: $gutter-width;
+    padding-right: $gutter-width;
+  }
+}
+
+%zebra-row {
+  transition: background-color .1s ease-out;
+  
+  &:nth-child(2n+1) {
+    background-color: $alabaster;
+  }
+
+  &:hover {
+    background-color: $gallery;
+  }
+}  

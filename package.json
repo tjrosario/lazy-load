@@ -1,0 +1,23 @@
+{
+  "name": "lazyload",
+  "version": "1.0.0",
+  "description": "Lazy load Assignment",
+  "author": "Tommy Rosario",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-express-server": "^0.5.3",
+    "grunt-notify": "^0.4.5",
+    "grunt-sass": "^1.2.0",
+    "grunt-scss-lint": "^0.3.8",
+    "jquery": "^3.1.0",
+    "knockout": "^3.4.0",
+    "load-grunt-config": "^0.19.2",
+    "time-grunt": "^1.4.0"
+  }
+}
